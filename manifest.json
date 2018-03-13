@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com;object-src 'self'",
+
+  "name": "Nikola Seke Social Media Extension",
+  "description": "Nikola Seke Social Media Extension",
+  "version": "1.0.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
